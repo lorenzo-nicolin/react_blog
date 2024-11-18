@@ -1,0 +1,20 @@
+*{
+    background-color: lightblue;
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  input {
+    background-color: red;
+    border: 6px solid green;
+  }
+
+
+  #root {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+  }

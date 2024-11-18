@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
 import About from "./component/About";
 import BlogDetails from "./component/BlogDetails";
 import Home from "./component/Home";
+import "./css/style.css";
 
 function App() {
   const navigate = useNavigate();
