@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
 import "../index.css";
+import BlogDetails from "./BlogDetails";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -16,8 +17,14 @@ export default function Home() {
       >
         About?
       </button>
-      test
-      <div>test</div>
+
+      <div>
+        <h1>Blog Details</h1>
+      </div>
+
+      <div>
+        <BlogDetails />
+      </div>
     </div>
   );
 }
